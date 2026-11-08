@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=202611081812">
+<link rel="stylesheet" href="assets/style.css?v=202611082104">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -38,7 +38,7 @@
       <p class="hero-sub">Stories from the road, tips that actually help, and the small moments in between.</p>
       <a class="btn" href="blog/">Read the journal <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
     </div>
-    <div class="wrap hero-meta"><span class="odometer">0 miles logged, the first trip is loading</span><span>Scroll to explore</span></div>
+    <div class="wrap hero-meta"><span class="odometer">Latest trip: Traunstein, Austria</span><span>Scroll to explore</span></div>
   </section>
 
   <section>
@@ -48,8 +48,8 @@
         <p>Trips will be sorted by region here. Pick one to see what's on the list.</p>
       </div>
       <div class="tabs" role="tablist" aria-label="Regions">
-        <button class="tab" role="tab" aria-selected="true" data-region="asia">Asia <span class="count">0</span></button>
-        <button class="tab" role="tab" aria-selected="false" data-region="europe">Europe <span class="count">0</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-region="asia">Asia <span class="count">0</span></button>
+        <button class="tab" role="tab" aria-selected="true" data-region="europe">Europe <span class="count">1</span></button>
         <button class="tab" role="tab" aria-selected="false" data-region="africa">Africa <span class="count">0</span></button>
         <button class="tab" role="tab" aria-selected="false" data-region="americas">Americas <span class="count">0</span></button>
         <button class="tab" role="tab" aria-selected="false" data-region="oceania">Oceania <span class="count">0</span></button>
@@ -57,9 +57,9 @@
       <div class="region-panel" role="tabpanel">
         <img class="topo" src="assets/topo.svg" alt="">
         <div>
-          <h3 id="region-title">No Asia trips yet</h3>
-          <p>The first stories from this part of the map are on their way.</p>
-          <p class="places" id="region-places">On the wish list: Japan, Nepal, Vietnam, Indonesia, the Philippines</p>
+          <h3 id="region-title">Traunstein, Austria</h3>
+          <p id="region-text">A demanding climb above Traunsee, a mountain hut, chamois and a swim in the lake.</p>
+          <p class="places" id="region-places"><a class="btn" href="blog/traunstein-austria/">Read the story <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></p>
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
         <a class="entry entry-blog" href="blog/">
           <img class="topo" src="assets/topo.svg" alt="">
           <div style="position:relative"><h3>Blog</h3><p>Full stories from each trip: the routes, the people, the wrong turns worth taking.</p></div>
-          <span class="status" style="position:relative">First story coming soon</span>
+          <span class="status" style="position:relative">Latest: Traunstein, Austria</span>
         </a>
         <a class="entry entry-tips" href="tips/">
           <div><h3>Tips</h3><p>Packing lists, budgets, visas and the things I wish I'd known.</p></div>
@@ -95,12 +95,7 @@
         <h2>Gallery</h2>
         <a class="btn ghost" href="gallery/">Open the gallery <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
       </div>
-      <div class="frames">
-        <div class="frame">Photos from the first trip land here</div>
-        <div class="frame"></div>
-        <div class="frame"></div>
-        <div class="frame"></div>
-      </div>
+      <div class="frames"><a class="frame-photo" href="gallery/"><img src="blog/traunstein-austria/img/summit-sm.webp" alt="Alfred on summit rocks above Traunsee" loading="lazy"></a><a class="frame-photo" href="gallery/"><img src="blog/traunstein-austria/img/rock-window-sm.webp" alt="A natural rock window on Traunstein" loading="lazy"></a><a class="frame-photo" href="gallery/"><img src="blog/traunstein-austria/img/swim-sm.webp" alt="Swimming in Traunsee" loading="lazy"></a><a class="frame-photo" href="gallery/"><img src="blog/traunstein-austria/img/chamois-2-sm.webp" alt="A chamois on the trail" loading="lazy"></a></div>
     </div>
   </section>
 
@@ -135,6 +130,6 @@
   </div>
   <div class="wrap footer-bottom"><span>© <span data-year>2026</span> Miles &amp; Mountains</span><span>Made by hand, one trip at a time.</span></div>
 </footer>
-<script src="assets/site.js?v=202611081812"></script>
+<script src="assets/site.js?v=202611082104"></script>
 </body>
 </html>

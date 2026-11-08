@@ -12,3 +12,5 @@ Static site hosted free on GitHub Pages (repo `alfredligo09-wq.github.io`). No b
 - Instagram: https://www.instagram.com/__its.alfred/ (used on every page).
 - After changing `assets/style.css` or `assets/site.js`, bump the `?v=` number on their links in EVERY html file, or browsers keep the old cached file.
 - Photos: the owner uploads originals to the Google Drive folder titled "Miles & Mountains – Website Photos" (one subfolder per trip). Download originals via the Google Drive connector; never upscale; strip EXIF/GPS when resizing.
+- First post: `blog/traunstein-austria/` (photos in its `img/`, 1600px landscape / 1200px portrait + `-sm` halves, WebP + JPEG). Copy its structure for new posts: hero cover, "At a glance" box, `.route` cards, `.fig-pair`, `.callout`, `.link-btn`, Instagram embed, "More from the day" `.photo-grid`. Add each new trip to the Blog list (`.post-card`), the Gallery page (`.gallery-trip`), and the home region tabs (`regions` in `assets/site.js`).
+- Privacy: don't publish photos showing children's faces unless blurred and approved by the owner.
